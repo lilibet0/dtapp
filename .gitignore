@@ -1,3 +1,3 @@
-dtapp/target
+target/
 .DS_Store
-Cargo.lockhttps://github.com/lilibet0/dtapp/edit/main/.DS_Store
+Cargo.lock
