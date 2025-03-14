@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blue Ribbon</title>
+</head>
+
+<body>
+    <h1>Dog Training App</h1>
+
+    <label for="levels">Select your level:</label>
+    <select name="levels" id="levels">
+      <option value="">Select...</option>
+      <option value="//localhost:3000/novice">Novice</option>
+      <option value="//localhost:3000/open">Open</option>
+      <option value="//localhost:3000/utility">Utility</option>
+    </select> 
+
+    <script type="text/javascript">
+        levels.addEventListener('click',function() {
+            window.location.assign(levels.value)
+        });
+
+    </script>
+    
+</body>
+
+</html>
