@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blue Ribbon</title>
+</head>
+
+<body>
+    <div id="Training_Session">
+        <table>
+            <caption>
+                Training Sessions
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Time in</th>
+                    <th scope="col">Handler</th>
+                    <th scope="col">Dog</th>
+                    <th scope="col">Exercise</th>
+                    <th scope="col">Score</th>
+                    <th scope="col">Elapsed Time (minutes)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% block training_session %}
+                {% endblock training_session %}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

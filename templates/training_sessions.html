@@ -1,0 +1,21 @@
+{% extends "blue_ribbon.html" %}
+
+{% block training_session %}
+
+<tr>
+    <td scope="row">"date"</td>
+    {{ date }}
+    <td scope="row">"time"</td>
+    {{ time }}
+    <td scope="row">"handler"</td>
+    {{ handler }}
+    <td scope="row">"dog"</td>
+    {{ dog }}
+    <td scope="row">"exercise"</td>
+    {{ exercise }}
+    <td scope="row">"score"</td>
+    {{ score }}
+    <td scope="row">"elapsed_time_minutes"</td>
+    {{ elapsed_time_minutes }}
+</tr>
+{% endblock training_session %}
